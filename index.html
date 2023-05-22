@@ -13,7 +13,7 @@
   <header>
       <img src="imagen/logo.jpg" height="84" width="128" alt="logo.jpg" class="logo">
 
-      <div class="menu">
+      <div>
           Inicio
           <a href="formulario.html">Contacto</a>
           Quienes somos
@@ -50,16 +50,24 @@
 
 
   <footer>
-      <div class="image-container">
-          <img src="imagen/facebook.png" alt="facebook.png" width="30" height="30">
-          <img src="imagen/istagram.png" alt="istagram.png" width="30" height="30">
-          <img src="imagen/twitter.png" alt="twitter.png" width="30" height="30">
-      </div>
-      <div class="text-container">
-          <p>Facebook</p>
-          <p>Instagram</p>
-          <p>Twitter</p>
-      </div>
+      <table class="image-container">
+          <tr>
+              <th>
+                  <img src="imagen/facebook.png" alt="facebook.png" width="30" height="30" class="left">
+              </th>
+              <th>
+                  <img src="imagen/istagram.png" alt="istagram.png" width="30" height="30">
+              </th>
+              <th>
+                  <img src="imagen/twitter.png" alt="twitter.png" width="30" height="30" class="right">
+              </th>
+          </tr>
+          <tr>
+              <td class="left">Facebook     </td>
+              <td>Instragram   </td>
+              <td class="right">Twitter      </td>
+          </tr>
+      </table>
   </footer>
 
 

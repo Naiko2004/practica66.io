@@ -6,9 +6,7 @@ body{
     text-align: center;
 }
 .logo{
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
+    float: left;
 }
 .imagenI{
     float: left;
@@ -30,14 +28,8 @@ footer {
       text-align: center; /* Centra horizontalmente el contenido del footer */
 }
 
-.image-container {
-    display: flex;
-    justify-content: center; /* Centra horizontalmente las imágenes */
-    align-items: center; /* Centra verticalmente las imágenes */
-}
-
 .image-container img {
-    margin-left: 100px; /* Añade un margen entre las imágenes si lo deseas */
+    margin-left: 10px; /* Añade un margen entre las imágenes si lo deseas */
 }
 
 .text-container{
@@ -47,6 +39,25 @@ footer {
     margin-left: 50px;
 }
 
-.text-container p{
-    margin-left: 60px;
+table{
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
+
+.right{
+    position: relative;
+    right: -500px;
+    padding: 10px;
+}
+
+.left{
+    position: relative;
+    right: 500px;
+    padding: 10px;
+}
+
+.rojo{
+    color: red;
+}
+
