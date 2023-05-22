@@ -19,8 +19,34 @@ body{
 .encuadrado{
     border: 3px solid blue;
 }
-.redes{
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
+.columna{
+    margin: auto;
+    width: 50%;
+    border: 3px solid green;
+    padding: 10px;
+}
+
+footer {
+      text-align: center; /* Centra horizontalmente el contenido del footer */
+}
+
+.image-container {
+    display: flex;
+    justify-content: center; /* Centra horizontalmente las imágenes */
+    align-items: center; /* Centra verticalmente las imágenes */
+}
+
+.image-container img {
+    margin-left: 100px; /* Añade un margen entre las imágenes si lo deseas */
+}
+
+.text-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 50px;
+}
+
+.text-container p{
+    margin-left: 60px;
 }
