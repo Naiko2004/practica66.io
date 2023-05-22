@@ -68,3 +68,7 @@ table{
     clear: both;
     display: table;
 }
+
+.test{
+    color: blue;
+}
