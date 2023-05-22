@@ -17,27 +17,10 @@ body{
 .encuadrado{
     border: 3px solid blue;
 }
-.columna{
-    margin: auto;
-    width: 50%;
-    border: 3px solid green;
-    padding: 10px;
-}
-
 footer {
-      text-align: center; /* Centra horizontalmente el contenido del footer */
+      text-align: center;
 }
 
-.image-container img {
-    margin-left: 10px; /* Añade un margen entre las imágenes si lo deseas */
-}
-
-.text-container{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin-left: 50px;
-}
 
 table{
     display: flex;
@@ -61,3 +44,27 @@ table{
     color: red;
 }
 
+.boton{
+    text-align: center;
+    border: none;
+    color: wheat;
+    background-color: darkblue;
+    min-width: 120px;
+    min-height: 30px;
+}
+
+.center{
+    text-align: center;
+}
+
+.sinPunto{
+    list-style-type: none;
+    display: block;
+    margin-left: 500px;
+}
+
+.clearFix::after{
+    content: "";
+    clear: both;
+    display: table;
+}
